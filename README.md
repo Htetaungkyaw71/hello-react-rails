@@ -72,12 +72,13 @@ Clone this repository by using the command line :
 Install this project with:
 
 `bundle install`
+`npm install`
 
 ### Usage
 
 To run the project, execute the following command:
 
-`rails s`
+`./bin/dev`
 
 NB: You need to create an `env` file for your database credentials
 your env file should contain the following
@@ -137,6 +138,6 @@ I would like to thank Microverse for the project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./license) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
