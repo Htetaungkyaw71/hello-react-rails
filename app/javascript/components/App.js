@@ -1,4 +1,5 @@
 import React from 'react';
+import Greeting from './Greeting';
 import {
     createBrowserRouter,
     createRoutesFromElements,
@@ -6,11 +7,7 @@ import {
     RouterProvider,
   } from "react-router-dom";
 
-function Greeting (){
-    return (
-        <h1>Greeting</h1>
-    )
-}
+
 
 const router = createBrowserRouter(
     createRoutesFromElements(
